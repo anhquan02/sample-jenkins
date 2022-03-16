@@ -5,4 +5,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
 
+export async function getServerSideProps(){  
+  return{
+    props:{
+      hello:"World"
+    }
+  }
+}
+
 export default MyApp
