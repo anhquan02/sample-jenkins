@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   console.log(process.env.NEXT_PUBLIC_ABC)
+  console.log("ABC")
   return (    
     <div className={styles.container}>
       <Head>
